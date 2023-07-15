@@ -1,0 +1,14 @@
+Ways to generate word embeddings:
+1. BoW
+2. Word2Vec (CBOW & Skip-gram): 
+    a. Implementation using Gensim: https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html
+    b. Visualization using TSNE (from sklearn): https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#visualising-word-embeddings
+3. Doc2Vec (PV-DM & PV-DBOW):
+    a. Gensim: https://radimrehurek.com/gensim/auto_examples/tutorials/run_doc2vec_lee.html
+4. Fasttext (can handle OOV words but is also unreliable then):
+    a. Gensim: https://radimrehurek.com/gensim/auto_examples/tutorials/run_fasttext.html
+5. GloVe
+
+
+Other Resources:
+1. Gensim (Radim Rehurek and Petr Sojka): https://github.com/RaRe-Technologies/gensim
